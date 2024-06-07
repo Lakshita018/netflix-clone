@@ -4,10 +4,6 @@ import logo from '../../assets/logo.png'
 
 const Login = () => {
   const[signState , setSignState] = useState ("sign in")
-
-
-
-
   return (
     <div className='login'>
       <img src={logo} className='login-logo'alt="" />
