@@ -18,3 +18,22 @@
   border-radius: 4px;
   cursor: pointer;
 }
+.para{
+  text-decoration: none;
+  color:white;
+}
+@media (max-width:800px){
+  .title-cards{
+    margin-top:20px;
+    margin-bottom:0;
+  }
+  .title-cards h2{
+    font-size:20px;
+  }
+  .card-list img{
+    width:200px;
+  }
+  .card-list p{
+    font-size:12px;
+  }
+}
